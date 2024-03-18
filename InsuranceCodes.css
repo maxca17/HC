@@ -1,0 +1,33 @@
+/* src/components/Dashboard.css */
+.dashboard-component {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(100% - 40px);
+}
+
+.dashboard-component h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.insurance-codes .codes-list .code-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.insurance-codes .codes-list .code-item .code {
+  font-weight: bold;
+  color: #555;
+}
+
+.insurance-codes .codes-list .code-item .description {
+  color: #777;
+}
